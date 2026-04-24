@@ -13,7 +13,7 @@ func moving_all_zeroes_to_right(arr[]int)[]int{
 	return arr
 }
 func main(){
-	arr:=[]int{0, 1, 0, 5,0,0,0,0,0,0,0,0,0,0,0,3, 12}
+	arr:=[]int{0,1,1,1,1,1,1,0,0,0,0,0,1,1}
 	x:=moving_all_zeroes_to_right(arr)
 	fmt.Println(x)
 }
